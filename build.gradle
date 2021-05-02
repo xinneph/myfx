@@ -16,11 +16,12 @@ buildscript {
 
 allprojects {
     repositories {
+        mavenCentral()
+        maven {
+            url "http://www.dukascopy.com/client/jforexlib/publicrepo/"
+        }
         google()
         jcenter()
-        maven {
-            url "http://www.dukascopy.com/client/jforexlib/publicrepo"
-        }
     }
 }
 
