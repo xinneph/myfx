@@ -1,2 +1,3 @@
+include ':fxmodel'
 include ':app'
 rootProject.name = "Myfx"
